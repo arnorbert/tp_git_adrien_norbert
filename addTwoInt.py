@@ -10,6 +10,9 @@ try:
 	b = int( sys.argv[2] )
 except IndexError:
 	print("Error: You must give 2 numerical arguments.")
+	a = int(input("Input the first number: "))
+	b = int(input("Input the second number: "))
+	add(a,b)
 	raise (SystemExit)
 
 add(a,b)
